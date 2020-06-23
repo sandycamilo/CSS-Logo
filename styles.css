@@ -4,7 +4,7 @@
     height: 200px;
     border: solid;
     border-color: rgb(0, 0, 0);
-    border-width: 1px;
+    border-width: 10px;
 }
 
 .box > .up {
@@ -56,22 +56,30 @@
     width: 40px;
     height: 40px;
     background-color: aliceblue;
+    transform: rotate(10deg);
+    border-radius: 10px;
 }
 
 .ubox2 > :nth-child(1) {
     width: 40px;
     height: 40px;
     background-color: aliceblue;
+    transform: rotate(-10deg);
+    border-radius: 10px;
 }
 
 .dbox2 > :nth-child(1) {
     width: 40px;
     height: 40px;
     background-color: aliceblue;
+    transform: rotate(10deg);
+    border-radius: 10px;
 }
 
 .dbox > :nth-child(1) {
     width: 40px;
     height: 40px;
     background-color: aliceblue;
+    transform: rotate(-10deg);
+    border-radius: 10px;
 }
